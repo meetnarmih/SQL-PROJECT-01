@@ -33,17 +33,44 @@ This is an SQL project which aim is to show how to create,manage and analysis of
 - Analysing and making predictive decision of Data
 
 
-## Solutions
+## Solutions/Analysis
 **1. Create database named 'Dannys Diner'**
 I used the syntax: CREATE DATABASE DANNYS_DINER
              Then: USE DANNYS_DINER i.e make use of this Database
 
-**1b. Create and insert values tables 'Sales', 'Menu', 'Members'**
+**2. Create and insert values tables 'Sales', 'Menu', 'Members'**
 
 **SALES TABLE**
+![](SALES_TABLE.png)
+
+**MENU TABLE**
+![](MENU_TABLE.png)
+
+**MEMBERS TABLE**
+![](MEMBERS_TABLE.png)
+
+## ANALYSIS
+
+**3. What's the total amount each customer spent at the restaurant?**
+
+- Started by knowing sum of the price per customer purchase in our dataset.
+
+![](TOTAL_AMOUNT_PER_CUS.png)
+
+**4. How many days has each customer visited the restaurant?**
+- This query sets further help us know the total number of days each customer visited the store;
+-  this is done by counting the total days per customer ID
+
 ![](TOTAL_DAYS_PER_CUS.png)
 
-**2. Insert values into Database**
+**5. What was the first item from the menu purchased by each customer?**
+- This is carried out using DENSE RANK Function, which help us designate rank to each row;
+- then we further subset the query using WHERE clause to show 1st item purchased per customer
+
+![](1ST_PER_CUS.png)
+
+
+
 
 
 
