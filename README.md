@@ -40,6 +40,7 @@ I used the syntax: CREATE DATABASE DANNYS_DINER
 
 **1b. Create and insert values tables 'Sales', 'Menu', 'Members'**
 **SALES TABLE**
+![](total_days_per_cus.png)
 
 **2. Insert values into Database**
 
