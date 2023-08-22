@@ -39,8 +39,9 @@ I used the syntax: CREATE DATABASE DANNYS_DINER
              Then: USE DANNYS_DINER i.e make use of this Database
 
 **1b. Create and insert values tables 'Sales', 'Menu', 'Members'**
+
 **SALES TABLE**
-![](total_days_per_cus.png)
+![](TOTAL_DAYS_PER_CUS.png)
 
 **2. Insert values into Database**
 
