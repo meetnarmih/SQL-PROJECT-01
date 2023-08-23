@@ -73,13 +73,13 @@ I used the syntax: CREATE DATABASE DANNYS_DINER
 - The analysis is carried out using the COUNT clause to get the total purchase per customer, INNER JOIN our Sales and Menu table
 - then using the ORDER Function to the results set of our query.
 
-![](MOST_PURCAHSED_ITEM1.png)
+![](MP.png)
 
 **6B. How many times was it purchased by all customers?**
 - We can further determine no of times most popular item purchased by all customer by filtering the rows based on the most purchased
 - using WHERE clause helps filter to show no no of times most popular purchased (i.e ITEM with Product ID: 3)
 
-![](TOTAL_MOST_PURCAHSEDBY_CUS1.png)
+![](TMP.png)
 
 **7. Which item was the most popular for each customer?**
 - This is carried out by finding the total count of item purchased per customer(using COUNT clause)
