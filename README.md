@@ -73,19 +73,19 @@ I used the syntax: CREATE DATABASE DANNYS_DINER
 - The analysis is carried out using the COUNT clause to get the total purchase per customer, INNER JOIN our Sales and Menu table
 - then using the ORDER Function to the results set of our query.
 
-![](MOST_PURCAHSED_ITEM.png)
+![](MOST_PURCAHSED_ITEM1.png)
 
 **6B. How many times was it purchased by all customers?**
 - We can further determine no of times most popular item purchased by all customer by filtering the rows based on the most purchased
 - using WHERE clause helps filter to show no no of times most popular purchased (i.e ITEM with Product ID: 3)
 
-![](TOTAL_MOST_PURCAHSEDBY_CUS.png)
+![](TOTAL_MOST_PURCAHSEDBY_CUS1.png)
 
 **7. Which item was the most popular for each customer?**
 - This is carried out by finding the total count of item purchased per customer(using COUNT clause)
 - then we subquery our main query which allows me to retrieve data that will be used as a filter on main query(i.e with the use of DENSE RANK() which assigns rank to a row and WHERE clause to filter by desire row).
 
-![](IMAGE.PNG)
+![](ITEM_MOST_PUR_PERCUS.png)
 
 **8. Which item was purchased first by the customer after they became a member?**
 - This is carried out using DENSE RANK and OVER Function, which help us designate rank to each row; also a JOIN clause(INNER JOIN) joining 3 TABLES our Sales, Join Date and Menu table. 
@@ -102,6 +102,8 @@ I used the syntax: CREATE DATABASE DANNYS_DINER
 **10A. What is the total items and amount spent for each customer before they became a member?**
 - This query sets help us know the total Aamount spent per customer before becoing member using (SUM clause)
 -  then further filter(USING WHERE CLAUSE) to show for only Order date that's before becoming a member.
+
+![](TOTAL_BEFORe_MEM.png)
 
 
 
