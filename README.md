@@ -1,5 +1,5 @@
 # SQL-PROJECT-01
-Showcasing how to create/analyze Data from a Database
+Showcasing how to create Database and analysing the Dataset
 
 ![](SQL_Webpage.jpg)
 
